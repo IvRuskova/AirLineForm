@@ -42,6 +42,7 @@
             this.addresstxt = new System.Windows.Forms.TextBox();
             this.datebirthtxt = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // custdetlbl
@@ -160,19 +161,31 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(245, 446);
+            this.button1.Location = new System.Drawing.Point(148, 447);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 40);
+            this.button1.Size = new System.Drawing.Size(87, 40);
             this.button1.TabIndex = 13;
             this.button1.Text = "Save";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(271, 447);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(89, 40);
+            this.button3.TabIndex = 15;
+            this.button3.Text = "Update";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Customers
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(417, 556);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.datebirthtxt);
             this.Controls.Add(this.addresstxt);
@@ -211,5 +224,6 @@
         private System.Windows.Forms.TextBox addresstxt;
         private System.Windows.Forms.DateTimePicker datebirthtxt;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
     }
 }

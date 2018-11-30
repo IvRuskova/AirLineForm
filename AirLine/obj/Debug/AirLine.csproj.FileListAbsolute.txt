@@ -15,3 +15,4 @@ D:\Projects_Experiment\AirLine\AirLine\obj\Debug\AirLine.csproj.CopyComplete
 D:\Projects_Experiment\AirLine\AirLine\obj\Debug\AirLine.exe
 D:\Projects_Experiment\AirLine\AirLine\obj\Debug\AirLine.pdb
 D:\Projects_Experiment\AirLine\AirLine\obj\Debug\AirLine.Customers.resources
+D:\Projects_Experiment\AirLine\AirLine\obj\Debug\AirLine.Search_Cust.resources
