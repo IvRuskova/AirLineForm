@@ -4,9 +4,9 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="5d9f39bfb9544d68826e3f332133edf5" Name="Diagram1">
+      <Diagram DiagramId="051d18d9c16b49be8ffd21794d9d9f1a" Name="Diagram1">
         <EntityTypeShape EntityType="AirLineDbModel.Admin" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="AirLineDbModel.Cust_Details" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="AirLineDbModel.Cust_Details" Width="1.5" PointX="3.375" PointY="0.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
