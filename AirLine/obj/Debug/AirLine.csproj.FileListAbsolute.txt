@@ -16,3 +16,5 @@ D:\Projects_Experiment\AirLine\AirLine\obj\Debug\AirLine.exe
 D:\Projects_Experiment\AirLine\AirLine\obj\Debug\AirLine.pdb
 D:\Projects_Experiment\AirLine\AirLine\obj\Debug\AirLine.Customers.resources
 D:\Projects_Experiment\AirLine\AirLine\obj\Debug\AirLine.Search_Cust.resources
+D:\Projects_Experiment\AirLine\AirLine\obj\Debug\AirLine.Flight_Details.resources
+D:\Projects_Experiment\AirLine\AirLine\obj\Debug\AirLine.Ticket_Reservation.resources

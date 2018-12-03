@@ -67,6 +67,8 @@ namespace AirLine
             customer.Email= emailtxt.Text;
             customer.BirthDate=datebirthtxt.Value;
             db.SaveChanges();
+            MessageBox.Show("Record Updated");
+
         }
     }
 }

@@ -7,6 +7,8 @@
       <Diagram DiagramId="051d18d9c16b49be8ffd21794d9d9f1a" Name="Diagram1">
         <EntityTypeShape EntityType="AirLineDbModel.Admin" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="AirLineDbModel.Cust_Details" Width="1.5" PointX="3.375" PointY="0.75" />
+        <EntityTypeShape EntityType="AirLineDbModel.Flight_Info" Width="1.5" PointX="0.75" PointY="3.75" />
+        <EntityTypeShape EntityType="AirLineDbModel.Booking" Width="1.5" PointX="3.375" PointY="4.75" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>

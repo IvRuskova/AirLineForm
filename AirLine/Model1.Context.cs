@@ -27,5 +27,7 @@ namespace AirLine
     
         public virtual DbSet<Admin> Admins { get; set; }
         public virtual DbSet<Cust_Details> Cust_Details { get; set; }
+        public virtual DbSet<Flight_Info> Flight_Info { get; set; }
+        public virtual DbSet<Booking> Bookings { get; set; }
     }
 }

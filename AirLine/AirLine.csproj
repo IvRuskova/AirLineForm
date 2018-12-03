@@ -64,6 +64,9 @@
     <Compile Include="Admin.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="Booking.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="Customers.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +74,15 @@
       <DependentUpon>Customers.cs</DependentUpon>
     </Compile>
     <Compile Include="Cust_Details.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Flight_Details.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Flight_Details.Designer.cs">
+      <DependentUpon>Flight_Details.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Flight_Info.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
@@ -102,8 +114,17 @@
     <Compile Include="Search_Cust.Designer.cs">
       <DependentUpon>Search_Cust.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ticket_Reservation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ticket_Reservation.Designer.cs">
+      <DependentUpon>Ticket_Reservation.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Customers.resx">
       <DependentUpon>Customers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Flight_Details.resx">
+      <DependentUpon>Flight_Details.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -120,6 +141,9 @@
     </Compile>
     <EmbeddedResource Include="Search_Cust.resx">
       <DependentUpon>Search_Cust.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ticket_Reservation.resx">
+      <DependentUpon>Ticket_Reservation.cs</DependentUpon>
     </EmbeddedResource>
     <EntityDeploy Include="Model1.edmx">
       <Generator>EntityModelCodeGenerator</Generator>

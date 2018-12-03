@@ -16,7 +16,7 @@ namespace AirLine
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Search_Cust());
+            Application.Run(new Ticket_Reservation());
         }
     }
 }
